@@ -7,23 +7,29 @@
   <script src="http://code.jquery.com/jquery-latest.js"></script>
 
   <script>
-  var root = 'http://jsonplaceholder.typicode.com';
+  "use strict";
 
-    $.ajax({
-    url: root + '/posts',
-    method: 'GET'
-    }).then(function(data) {
-        for (var i = 0; i < 1; ++i){
-          var timerId = setInterval(function() {alert(data);}, 2000);
+  var content;
+  var timerId = setInterval( function() {
+  $.ajax({
+  url: 'https://randomuser.me/api/',
+  dataType: 'json',
+  success: function(data) {
+    content = JSON.stringify(data);
+    console.log(content);
+    alert(content);
+    $('body').html(data);
     }
-    });
+  });
+  },10000);
+
+
   </script>
 
   <style>img{ height: 300px; float: left; }</style>
 </head>
 <body>
-  <div id="images">
-  </div>
+  {{results.cell}} {{name.first}}
 </body>
 
 </html>
