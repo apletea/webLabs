@@ -1,0 +1,36 @@
+{
+  "name": "AngularJS",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.5.3",
+    "gulp-install": "^0.6.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "breakpoint": "^0.1.6",
+    "breakpoint-slicer": "^2.0.0",
+    "chroma-sass": "^1.2.4",
+    "css-mqpacker": "^4.0.1",
+    "cssnano": "^3.5.2",
+    "cssnext": "^1.8.4",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-install": "^0.6.0",
+    "gulp-livereload": "^0.1.0",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-postcss": "^6.1.0",
+    "gulp-webserver": "^0.9.1",
+    "postcss-cssnext": "^2.5.2",
+    "postcss-import": "^8.1.0",
+    "postcss-minify-font-values": "^1.0.3",
+    "postcss-scss": "^0.1.7",
+    "precss": "^1.4.0"
+  }
+}

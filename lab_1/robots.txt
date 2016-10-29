@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Disallow: http://pathways.netne.net/sitemap.xml

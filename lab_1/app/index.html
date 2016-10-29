@@ -1,0 +1,30 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+                    "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+  <script>
+  var root = 'http://jsonplaceholder.typicode.com';
+
+    $.ajax({
+    url: root + '/posts',
+    method: 'GET'
+    }).then(function(data) {
+        for (var i = 0; i < 1; ++i){
+          var timerId = setInterval(function() {alert(data);}, 2000);
+    }
+    });
+  </script>
+
+  <style>img{ height: 300px; float: left; }</style>
+</head>
+<body>
+  <div id="images">
+  </div>
+</body>
+
+</html>
+
